@@ -23,11 +23,13 @@ const NaveBar = () => {
    <>
     <div className={`navber ${naveScroll ? "scrolled" : ""}`}>
       <div className="nave-bar">
-        rokib
+          <div className="logo">
+            <h2><i>image</i></h2>
+          </div>
       </div>
     </div>
     <div className="manu">
-      h
+        
     </div>
    </>
   );

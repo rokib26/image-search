@@ -2,13 +2,10 @@
   padding: 0;
   margin: 0;
 }
-
 .navber {
  height: 70px;
  width: 100%;
- background-color: red;
 }
-
 .scrolled {
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -20,8 +17,15 @@
   transition: all 0.3s ease;
   height: 70px;
 }
-
-
+.logo {
+  line-height: 70px;
+  padding: 0 50px;
+}
+.logo h2 i {
+  color: red;
+}
 .manu {
-  height: 1000px;
+  height: 100vh;
+  width: 250px;
+  border: 1px solid black;
 }
