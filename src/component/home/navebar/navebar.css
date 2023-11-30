@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navber {
+ height: 70px;
+ width: 100%;
+ background-color: red;
+}
+
+.scrolled {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  transition: all 0.3s ease;
+  height: 70px;
+}
+
+
+.manu {
+  height: 1000px;
+}
